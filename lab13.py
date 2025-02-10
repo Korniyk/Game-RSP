@@ -11,5 +11,5 @@ def sum_positive_numbers(*numbers):
 
 # Приклад виклику функції
 if __name__ == "__main__":
-    test_numbers = [3, 5, -2, 0, 7]
+    test_numbers = [3, 6, -2, 0, 7]
     print(sum_positive_numbers(*test_numbers))
